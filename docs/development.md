@@ -91,3 +91,12 @@ nest g res features/users --dry-run
 GET http://localhost:3000/users
 
 ```
+
+## Read a Configuration Settings
+
+1. Run this command on the terminal to install **@nestjs/config**:
+
+```sh
+npm i @nestjs/config
+
+```
