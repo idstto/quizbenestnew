@@ -40,3 +40,25 @@ cd <project_directory>
 npm run start:dev
 
 ```
+
+## Test the API
+
+1. Install [REST Client for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) or [Postman](https://www.postman.com/)
+
+2. Create a New File with .http extension, e.g.: ./rest/user.http
+
+3. Update the file content with these lines:
+
+```text
+### Test Root Endpoint
+
+GET http://localhost:3000/
+
+```
+
+4. Send the Request, and it should get the response like this:
+
+```sh
+Hello World!
+
+```

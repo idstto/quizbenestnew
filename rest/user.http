@@ -1,0 +1,4 @@
+### Test Root Endpoint
+
+GET http://localhost:3000/
+
