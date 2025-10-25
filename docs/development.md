@@ -62,3 +62,32 @@ GET http://localhost:3000/
 Hello World!
 
 ```
+
+## Create a New Resource
+
+1. Open a new terminal, and run this command:
+
+```sh
+nest generate resource <resource_name>
+# e.g. nest generate resource features/users
+# or
+nest g res <resource_name>
+# e.g. nest g res features/users
+
+```
+
+To test the command without generating the files, add **--dry-run**, e.g.:
+
+```sh
+nest g res features/users --dry-run
+
+```
+
+2. Add these lines to the .http file:
+
+```text
+### User Endpoint
+
+GET http://localhost:3000/users
+
+```
